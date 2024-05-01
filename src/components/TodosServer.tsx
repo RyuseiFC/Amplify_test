@@ -1,7 +1,7 @@
 import { cookieBasedClient } from "@/utils/amplifyServerUtils";
 import { listTodos } from "@/graphql/queries";
-import TodoNew from "@/components/TodoNew";
 import Todo from "@/components/Todo";
+import TodoNew from "@/components/TodoNew";
 
 export default async function TodosServer() {
   const { data, errors } = await cookieBasedClient.graphql({
