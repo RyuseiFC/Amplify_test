@@ -12,7 +12,7 @@ export default async function Home() {
 
   return (
     <main>
-      <h1>Hello, Next.js App Router with AWS Amplify JavaScript Library v6!</h1>
+      <h1>Hello, Next.s App Router with AWS Amplify JavaScript Library v6!</h1>
 
       <AuthenticatorClient />
     </main>
