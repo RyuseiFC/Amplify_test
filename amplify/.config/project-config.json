@@ -1,13 +1,17 @@
 {
-  "projectName": "nextamplify",
+  "projectName": "nextamplified",
   "version": "3.1",
-  "frontend": "flutter",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script start"
+    }
+  },
   "providers": [
     "awscloudformation"
-  ],
-  "flutter": {
-    "config": {
-      "ResDir": "./lib/"
-    }
-  }
+  ]
 }

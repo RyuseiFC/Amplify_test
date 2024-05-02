@@ -6,7 +6,9 @@ import type { Todo } from "@/API";
 import { client } from "@/components/ConfigureAmplifyClientSide";
 import { updateTodo, deleteTodo } from "@/graphql/mutations";
 
+
 export default function Todo({ item }: { item: Todo }) {
+
   const router = useRouter();
   const [isEditing, setIsEditing] = useState(false);
 

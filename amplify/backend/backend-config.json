@@ -1,13 +1,13 @@
 {
   "api": {
-    "nextamplify": {
+    "nextamplified": {
       "dependsOn": [
         {
           "attributes": [
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "nextamplify96f241e5"
+          "resourceName": "nextamplified2f089dc5"
         }
       ],
       "output": {
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authnextamplify96f241e5"
+              "userPoolId": "authnextamplified2f089dc5"
             }
           }
         }
@@ -26,7 +26,7 @@
     }
   },
   "auth": {
-    "nextamplify96f241e5": {
+    "nextamplified2f089dc5": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {

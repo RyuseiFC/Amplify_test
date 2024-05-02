@@ -6,6 +6,7 @@ import config from "@/amplifyconfiguration.json";
 
 Amplify.configure(config, { ssr: true });
 
+
 export const client = generateClient();
 
 export default function ConfigureAmplifyClientSide() {
